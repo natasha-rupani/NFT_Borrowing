@@ -14,7 +14,7 @@ Please make sure the browser is metamask compatible and has metamask installed.
 
 ## Abstract
 
-The project allows you to see all your NFTs and put them up on a blockchain for leanding.
+The project allows you to see all your NFTs and put them up on a blockchain for lending.
 Once a lease offer is made, anyone can agree to pay the leasing amount and recurring interest payment until the NFT is returned. NFT lease offer can also set the maximum time of lease. Once the lease time has expired the NFT will return to the owner.
 
 All this is handled by the smart contract and thus all lease conditions are executed automatically.
