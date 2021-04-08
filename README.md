@@ -9,8 +9,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Please make sure the browser is metamask compatible and has metamask installed.
 
-### `npm test`
+## Steps to test
 
+### `npm test`
+This will execute the test suite.
 
 ## Abstract
 
@@ -22,6 +24,19 @@ All this is handled by the smart contract and thus all lease conditions are exec
 ## Demo
 See how to put up your NFTs for borrowing and how to accept other NFTs leasing offers.
 ![NFT Borrowing Demo](https://github.com/natasha-rupani/NFT_Borrowing/blob/main/NFT-Borrowing-Demo.gif)
+
+## Implemtation
+Tech used inmcludes React, css, openzepplin contracts, truffle, solidity etc. Completely tested and hosted on Rinkeby testnet.
+
+## Security
+
+#### Modifiers are used to ensure role based access and for validating crucial IDs
+eg of modifiers used: onlyManager() , isValidLeaseID() etc
+
+#### SafeMath is used for all arithematics to prevent overflows and underflows
+
+#### Checks Effects interactions pattern implemented to counter re-entrancy attack vector
+
 
 ## Future Prospect
 
